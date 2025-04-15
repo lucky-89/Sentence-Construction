@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "json-server db.json --port 4000 --no-static"
-  },
+  "start": "json-server db.json --host 0.0.0.0 --port 10000 --no-static"
+}
+,
   "dependencies": {
     "json-server": "^0.17.3"
   }
